@@ -34,3 +34,5 @@ console.log($articles);
 
 $('.item-2').attr('title', 'Hi!!!');
 ```
+
+Codepen: http://codepen.io/anon/pen/Wwveeg?editors=1010

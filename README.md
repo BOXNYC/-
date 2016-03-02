@@ -10,6 +10,7 @@ Tiny pasteable HTML5 version of jQuery
 - $.html([html]) ~ Returns or sets innerHTML
 
 ## Coming soon
+- TO DO: $(func) ~ DOM ready listener
 - TO DO: $.removeAttr(name | [name]) ~ Removes attributes
 - TO DO: $.remove() ~ Removes element from DOM
 - TO DO: $.find(selector) ~ Selects children

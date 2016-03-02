@@ -1,4 +1,15 @@
+
+/**
+ * j$ - By Jo$eph Weitzel
+ **/
+
 var j$ = function(selector) {
+  if(typeof selector === 'function') {
+    document.addEventListener("DOMContentLoaded", function(event) {
+      selector.call(document);
+    });
+    return;
+  };
   var nodes = typeof selector === 'string' ?
       document.body.querySelectorAll(selector) :
       [selector];

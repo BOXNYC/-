@@ -2,25 +2,24 @@
 Tiny pasteable HTML5 version of jQuery
 
 ## Current functions
-- $(selector) ~ j$ selector
-- $(element) ~ Converts element to j$ selector
-- $().each(func) ~ Loops through selector
-- $().addClass(class) ~ Add a className
-- $().removeClass(class) ~ Remove a className
-- $().attr(name, value) ~ Set attribute
-- $().attr({name: value}) ~ Set attributes
-- $().html() ~ Returns innerHTML
-- $().html(html) ~ Sets innerHTML
-- TO DO: $().removeAttr({name: value}) ~ Remove attributes
-- TO DO: $().attr(name) ~ Get attributes
-- TO DO: $().remove() ~ Removes element from DOM
-- TO DO: $().find(selector) ~ Selects children
-- TO DO: $().filter(selector) ~ Limits selecton to match selector
-- TO DO: $().is(selector) ~ Checks if element matches selector
-- TO DO: $().is(element) ~ Checks if element matches element
-- TO DO: $().append(j$) ~ Adds elements to end
-- TO DO: $().prepend(j$) ~ Adds elements to beginning
-- TO DO: $().empty() ~ Clears innerHTML
+- $(selector|element) ~ j$ selector
+- $.each(func) ~ Loops through selector
+- $.addClass(class) ~ Add a className
+- $.removeClass(class) ~ Remove a className
+- $.attr(name[, value | {name: value}]) ~ Sets or gets(TO DO) attributes.
+- $.html([html]) ~ Returns or sets innerHTML
+
+## Coming soon
+- TO DO: $.removeAttr(name | [name]) ~ Removes attributes
+- TO DO: $.remove() ~ Removes element from DOM
+- TO DO: $.find(selector) ~ Selects children
+- TO DO: $.filter(selector) ~ Limits selecton to match selector
+- TO DO: $.is(selector|element) ~ Checks if element matches selector
+- TO DO: $.append(j$) ~ Adds elements to end
+- TO DO: $.prepend(j$) ~ Adds elements to beginning
+- TO DO: $.empty() ~ Clears innerHTML
+- TO DO: $.on(method, func) ~ DOM event listener
+- TO DO: $.off(method, func) ~ DOM event listener
 
 
 ```javascript

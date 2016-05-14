@@ -3,7 +3,7 @@
  * j$ - By Jo$eph Weitzel
  **/
 
-var $$ = function(a){
+var j$ = function(a){
 		var self = this,
 				doc = document,
 				_clean = function() {
@@ -13,6 +13,7 @@ var $$ = function(a){
 						i++;
 					};
 				};
+		this.fn = this.prototype;
 		this.length = 0;
 		this.events = {};
 		switch(typeof a) {
@@ -65,5 +66,5 @@ var $$ = function(a){
 			return self;
 		};
 	}, $ = function(a){
-		return new $$(a);
+		return new j$(a);
 	};

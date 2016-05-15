@@ -1,3 +1,5 @@
+** Version abandoned, use v2.0 **
+
 # j$
 Tiny pasteable HTML5 version of jQuery
 

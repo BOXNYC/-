@@ -19,6 +19,8 @@ Tiny pasteable barebones HTML5 imitation of jQuery
 - $.css(string|object[, value]) ~ Sets element's style values, or returns it
 - $.bind(event, func) ~ Binds to an element's events
 - $.unbind(event, func) ~ Removes an event added by $.bind
+- $.click(func) ~ Alias to $.bind('click')
+- $.hover(func[,func]) ~ Alias to $.bind('mouseover') and $.bind('mouseout')
 
 ## TO DO
 - $.filter(selector) ~ Limits selecton to match selector

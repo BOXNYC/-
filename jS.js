@@ -1,5 +1,5 @@
 /**
- * j$ - By Jo$eph Weitzel
+ * j$ v2.0 - By Jo$eph Weitzel
  **/
 
 var j$ = function(a){

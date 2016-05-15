@@ -2,37 +2,24 @@
 Tiny pasteable HTML5 version of jQuery
 
 ## Current functions
-- $(selector|element) ~ j$ selector
+- $(func) ~ Triggered on document's DOMContentLoaded
+- $(selector|element|markup) ~ j$ selector/creator
 - $.each(func) ~ Loops through selector
 - $.addClass(class) ~ Add a className
+- $.toggleClass(class) ~ Toggles a className
 - $.removeClass(class) ~ Remove a className
+- $.hasClass(class) ~ Returns boolean about class's presence
 - $.attr(name[, value | {name: value}]) ~ Sets or gets(TO DO) attributes.
+- $.removeAttr(name) ~ Removes an attribute
 - $.html([html]) ~ Returns or sets innerHTML
+- $.append(j$) ~ Appends an element
+- $.append(j$) ~ Prepends an element
+- $.remove() ~ Removes elements
+- $.empty() ~ Emptys an elements innerHMTL
+- $.css(string|object[, value]) ~ Sets element's style values, or returns it
+- $.bind(event, func) ~ Binds to an element's events
+- $.unbind(event, func) ~ Removes an event added by $.bind
 
-## Coming soon
-- TO DO: $(func) ~ DOM ready listener
-- TO DO: $.removeAttr(name | [name]) ~ Removes attributes
-- TO DO: $.remove() ~ Removes element from DOM
-- TO DO: $.find(selector) ~ Selects children
-- TO DO: $.filter(selector) ~ Limits selecton to match selector
-- TO DO: $.is(selector|element) ~ Checks if element matches selector
-- TO DO: $.append(j$) ~ Adds elements to end
-- TO DO: $.prepend(j$) ~ Adds elements to beginning
-- TO DO: $.empty() ~ Clears innerHTML
-- TO DO: $.on(method, func) ~ DOM event listener
-- TO DO: $.off(method, func) ~ DOM event listener
-
-
-```javascript
-console.log($('article'));
-
-var $articles = $('article').each(function(index, el){
-  $(this).addClass('item-'+index).html('Item '+index).removeClass('block');
-});
-console.log($articles); 
-//$articles.addClass('milk');
-
-$('.item-2').attr('title', 'Hi!!!');
-```
-
-Codepen: http://codepen.io/anon/pen/Wwveeg?editors=1010
+## TO DO
+- $.filter(selector) ~ Limits selecton to match selector
+- $.is(selector|element) ~ Checks if element matches selector

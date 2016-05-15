@@ -1,5 +1,5 @@
 # j$ ~ "jMoney"
-Tiny pasteable barebones HTML5 imitation of jQuery
+Abridged jQuery essentials in HTML5
 
 ## Current functions
 - $(func) ~ Triggered on document's DOMContentLoaded
